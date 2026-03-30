@@ -1,0 +1,55 @@
+.token-payment {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+token-payment input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.payment-method-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.payment-method-tabs button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.payment-method-tabs button:hover {
+    background-color: #0056b3;
+}
+
+.receipt {
+    padding: 15px;
+    border: 1px solid #ced4da;
+    background: #ffffff;
+    margin-top: 20px;
+    display: none; /* Initially hidden */
+}
+
+.print-button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+.print-button:hover {
+    background-color: #218838;
+}
